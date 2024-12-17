@@ -16,5 +16,15 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        var num: Int
+        var jean: Person = Person("Jean","A20399234")
+        println(jean.alive)
+        println(jean.name)
+        println(jean.passport)
+
+        jean.die()
+        println(jean.alive)
+
     }
 }
