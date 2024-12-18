@@ -19,9 +19,15 @@ class MainActivity : AppCompatActivity() {
 
         var num: Int
         var jean: Person = Person("Jean","A20399234")
+        var anonimo : Person = Person()
         println(jean.alive)
         println(jean.name)
         println(jean.passport)
+
+        anonimo.Person()
+        println(anonimo.alive)
+        println(anonimo.name)
+        println(anonimo.passport)
 
         jean.die()
         println(jean.alive)
