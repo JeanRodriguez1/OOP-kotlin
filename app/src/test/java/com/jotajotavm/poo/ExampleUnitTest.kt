@@ -1,4 +1,4 @@
-package com.example.oop_kotlin
+package com.jotajotavm.poo
 
 import org.junit.Test
 
